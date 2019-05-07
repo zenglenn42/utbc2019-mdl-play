@@ -3,3 +3,7 @@
 Play with material design lite in preparation for MD and React.
 
 I'm following along in this (somewhat dated circa 2015) navbar [tutorial](https://webdesign.tutsplus.com/tutorials/learning-material-design-lite-navigation--cms-24565).
+
+## Early screen shot
+
+![alt](docs/images/mdl-screen-shot.png)
