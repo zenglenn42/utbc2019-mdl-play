@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- Following along in this MDL navbar tutorial:
-  https://webdesign.tutsplus.com/tutorials/learning-material-design-lite-navigation--cms-24565 -->
+  https://webdesign.tutsplus.com/tutorials/learning-material-design-lite-navigation--cms-24565 
+  https://www.tutorialspoint.com/materialdesignlite/materialdesignlite_layouts.htm
+  -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -76,26 +78,31 @@
       <!-- 
       Adding footer based upon this tutorial:
       https://www.tutorialspoint.com/materialdesignlite/materialdesignlite_footers.htm -->
+      <!-- <main class="mdl-layout__content" style="flex: 1 0 auto;"> -->
       <main class="mdl-layout__content">
-        <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer__left-section">
-            <div class="mdl-logo">
-              Copyright Information
-            </div>
-            <ul class="mdl-mini-footer__link-list">
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Privacy and Terms</a></li>
-              <li><a href="#">User Agreement</a></li>
-            </ul>
-          </div>
-
-          <div class="mdl-mini-footer__right-section">
-            <button class="mdl-mini-footer__social-btn">1</button>
-            <button class="mdl-mini-footer__social-btn">2</button>
-            <button class="mdl-mini-footer__social-btn">3</button>
-          </div>
-        </footer>
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--4-col graybox">1</div>
+          <div class="mdl-cell mdl-cell--4-col graybox">2</div>
+          <div class="mdl-cell mdl-cell--4-col graybox">3</div>
+        </div>
       </main>
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">
+            Copyright Information
+          </div>
+          <ul class="mdl-mini-footer__link-list">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy and Terms</a></li>
+            <li><a href="#">User Agreement</a></li>
+          </ul>
+        </div>
+        <div class="mdl-mini-footer__right-section">
+          <button class="mdl-mini-footer__social-btn">1</button>
+          <button class="mdl-mini-footer__social-btn">2</button>
+          <button class="mdl-mini-footer__social-btn">3</button>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
