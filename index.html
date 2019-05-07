@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Following along in this MDL navbar tutorial:
+  https://webdesign.tutsplus.com/tutorials/learning-material-design-lite-navigation--cms-24565 -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,6 +39,25 @@
               <a class="mdl-navigation__link" href="#">About</a>
               <a class="mdl-navigation__link" href="#">Contact</a>
             </nav>
+          </div>
+          <!-- start search form -->
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label
+              class="mdl-button mdl-js-button mdl-button--icon"
+              for="search-expandable"
+            >
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input
+                class="mdl-textfield__input"
+                type="text"
+                id="search-expandable"
+              />
+              <label class="mdl-textfield__label" for="search-expandable"
+                >Search text</label
+              >
+            </div>
           </div>
         </div>
       </header>
