@@ -39,7 +39,6 @@
               <a class="mdl-navigation__link" href="#">Home</a>
               <a class="mdl-navigation__link" href="#">Blog</a>
               <a class="mdl-navigation__link" href="#">About</a>
-              <a class="mdl-navigation__link" href="#">Contact</a>
             </nav>
           </div>
           <!-- start search form -->
@@ -77,20 +76,75 @@
       </div>
 
       <!-- <main class="mdl-layout__content" style="flex: 1 0 auto;"> -->
-      <main class="mdl-layout__content">
-        <div class="mdl-grid">
+      <main class="mdl-layout__content wrapper">
+        <!-- <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--8-col graybox">1</div>
           <div class="mdl-cell mdl-cell--8-col graybox">2</div>
-        </div>
+        </div> -->
 
         <!-- Demo of material design box shadows based on https://medium.com/@Florian/freebie-google-material-design-shadow-helper-2a0501295a2d -->
 
-        <div class="card"></div>
-        <div class="card card-1"></div>
+        <div class="card card-3">
+          <div id="idHappiness" class="label">
+            Civic Happiness
+          </div>
+          <div class="mdl-slider__container">
+            <i class="far fa-meh fa-md pr-3" aria-hidden="true"></i>
+            <input
+              class="mdl-slider mdl-js-slider"
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              tabindex="0"
+            />
+            <i class="far fa-smile fa-md pr-3" aria-hidden="true"></i>
+          </div>
+
+          <div id="idPolitics" class="label">
+            Political Affiliation
+          </div>
+          <div class="mdl-slider__container">
+            <i
+              class="fas fa-democrat fa-md blue-text pr-3"
+              aria-hidden="true"
+            ></i>
+            <input
+              class="mdl-slider mdl-js-slider"
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              tabindex="0"
+            />
+            <i
+              class="fas fa-republican fa-md red-text pr-3"
+              aria-hidden="true"
+            ></i>
+          </div>
+
+          <div id="idAffordability" class="label">
+            Affordability
+          </div>
+          <div class="mdl-slider__container">
+            <i class="fas fa-dollar-sign fa-sm pr-3" aria-hidden="true"></i>
+            <input
+              class="mdl-slider mdl-js-slider"
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              tabindex="0"
+            />
+            <i class="fas fa-dollar-sign fa-sm pr-3" aria-hidden="true"></i>
+            <i class="fas fa-dollar-sign fa-sm pr-3" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- <div class="card card-1"></div>
         <div class="card card-2"></div>
         <div class="card card-3"></div>
         <div class="card card-4"></div>
-        <div class="card card-5"></div>
+        <div class="card card-5"></div> -->
       </main>
 
       <!-- 
@@ -99,9 +153,9 @@
 
       <footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
-          <div class="mdl-logo">
-            Copyright Information
-          </div>
+          <!-- <div class="mdl-logo">
+            Copyright &copy;
+          </div> -->
           <ul class="mdl-mini-footer__link-list">
             <li><a href="#">Help</a></li>
             <li><a href="#">Privacy and Terms</a></li>

@@ -1,10 +1,28 @@
+body {
+  background: #e2e1e0;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .mdl-card {
   overflow: auto;
 }
 
-body {
-  background: #e2e1e0;
-  text-align: center;
+div.mdl-slider__container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .card {
@@ -44,4 +62,11 @@ body {
 
 .graybox {
   background-color: #fff;
+}
+
+.mdl-mini-footer {
+  padding: 1em;
+}
+
+div.center {
 }
