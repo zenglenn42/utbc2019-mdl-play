@@ -6,4 +6,6 @@ I'm following along in this (somewhat dated circa 2015) navbar [tutorial](https:
 
 ## Early screen shot
 
-![alt](docs/images/mdl-screen-shot.png)
+![alt](docs/img/mdl-screen-shot.png)
+
+![alt](docs/img/mdl-screen-shot-2.png)

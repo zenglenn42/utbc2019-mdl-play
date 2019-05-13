@@ -6,19 +6,49 @@ body {
 main {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
+  /* justify-content: center; */
   /* background: url("../img/austin-skyline.jpg") 0 / cover fixed; */
 }
 
 .wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 100vh;
+  flex-direction: row;
+}
+
+.center-items {
+  justify-content: center;
+}
+
+body > div > div > main > div > div.mdl-cell.mdl-cell--12-col.graybox {
+  /* background-color: red; */
+  /* margin: 0 auto; */
+  overflow: scroll;
+}
+
+main.mdl-layout__content {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .mdl-card-first {
+    margin-top: 12em;
+  }
 }
 
 .mdl-card {
   overflow: auto;
+  margin: 1em auto;
+  /* margin-bottom: 0.75em;
+  margin-left: 0.75em;
+  margin-right: 0.75em; */
 }
 
 div.mdl-slider__container {
@@ -30,10 +60,8 @@ div.mdl-slider__container {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 300px;
   margin: 1rem;
   position: relative;
-  width: 300px;
 }
 
 .card-1 {
@@ -70,8 +98,8 @@ div.mdl-slider__container {
 }
 
 .demo-card-square.mdl-card {
-  width: 320px;
-  height: 320px;
+  /* width: 33vh; */
+  /* height: 33vh; */
 }
 
 .demo-card-square > .mdl-card__title {
