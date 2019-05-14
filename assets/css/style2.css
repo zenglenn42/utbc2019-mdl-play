@@ -38,3 +38,11 @@
   /* background-color: #999; */
   background-color: white;
 }
+
+footer.mdl-mini-footer {
+  padding: 0.25em 0.125em;
+}
+
+.footer-icons {
+  padding-top: 0.25em;
+}
