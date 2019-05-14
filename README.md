@@ -9,3 +9,9 @@ I'm following along in this (somewhat dated circa 2015) navbar [tutorial](https:
 ![alt](docs/img/mdl-screen-shot.png)
 
 ![alt](docs/img/mdl-screen-shot-2.png)
+
+## Blessed Internet
+
+I find a nice responsive codepen somewhere on the internet that features a CSS grid and images of Bill Murray, both in my inspirational wheel house.
+
+![alt](docs/img/mdl-screen-shot-3.png)
