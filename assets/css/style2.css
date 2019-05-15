@@ -41,8 +41,15 @@
 
 footer.mdl-mini-footer {
   padding: 0.25em 0.125em;
+  position: relative;
+  overflow: visible;
 }
 
 .footer-icons {
   padding-top: 0.25em;
+}
+
+.footer-fab {
+  position: absolute;
+  bottom: 30px;
 }
